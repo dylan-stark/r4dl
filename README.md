@@ -6,7 +6,7 @@ This image is built on top of the awesome [Rocker](https://github.com/rocker-org
 ## Usage
 
 ```
-docker run --rm -it dstark/r4dl
+docker run --rm -it dstark/r4dl:6f851a3
 ```
 
 See the `rocker/rstudio` [docs](https://hub.docker.com/r/rocker/rstudio/) for guidance on configuring ports, etc.
