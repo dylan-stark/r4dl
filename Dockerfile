@@ -1,4 +1,4 @@
-FROM rocker/rstudio
+FROM rocker/tidyverse
 
 # Build in the open source Shiny server
 RUN export ADD=shiny && bash /etc/cont-init.d/add
