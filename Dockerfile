@@ -12,7 +12,10 @@ USER rstudio
 
 RUN \
     R -e "install.packages('keras')" &&\
-    R -e "library('keras'); install_keras()"
+    R -e "library('keras'); install_keras()" && \
+    R -e "devtools::install_github('rstudio/tfdeploy')"
 
 USER root
+
+EXPOSE 8089
 
